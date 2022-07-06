@@ -13,7 +13,8 @@ npc.walkEast(500, () => {
                     npc.walkSouth(1500, () =>{
                         npc.walkWest(2700, () => {
                             npc.walkNorth(400, () =>{
-                                
+                                npc.walkEast(500, () =>{                                   
+                                })
                             })
                         })
                     })
